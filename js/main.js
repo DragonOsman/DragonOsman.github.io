@@ -46,7 +46,8 @@ async function isServerAppRunning() {
     }
   } catch (err) {
     console.log(err);
-    resultText.textContent = "Server app is not running.";
+    resultText.textContent =
+      "Request cannot be sent to server app, either because it is not secure and/or because it is not running.";
   }
 }
 
