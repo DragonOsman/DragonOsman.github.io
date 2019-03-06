@@ -31,24 +31,3 @@ function toggleMenu() {
     showMenu = false;
   }
 }
-
-// Function to dynamically check if currency converter server application is running
-async function isServerAppRunning() {
-  let resultText = document.getElementById("result-text");
-
-  try {
-    const response = await fetch("http://dragonosman.dynu.net:5501/");
-
-    if (response.status >= 200 && response.status < 300) {
-      resultText.textContent = "Server app is running";
-    } else if (response.status >= 500) {
-      resultText.textContent = "Server app ran into a problem";
-    }
-  } catch (err) {
-    console.log(err);
-    resultText.textContent =
-      "Request cannot be sent to server app, either because it is not secure and/or because it is not running.";
-  }
-}
-
-isServerAppRunning();
