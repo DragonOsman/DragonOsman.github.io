@@ -38,12 +38,16 @@ async function isServerAppRunning() {
   try {
     const response = await fetch("https://dragonosman.dynu.net:5501/");
     if (response.status >= 200 && response.status < 300) {
-      displayInfo.textContent = "Server app is running (bold-faced text generated using JavaScript when trying" +
-      " to send a request to the server app)";
+      displayInfo.textContent =
+        "Server app is running (bold-faced text generated using JavaScript when trying" +
+        " to send a request to the server app)";
     }
   } catch (err) {
     console.log(err);
-    displayInfo.textContent = "Server app is not running (bold-faced text generated using JavaScript when trying" +
-    " to send a request to the server app)";
+    displayInfo.textContent =
+      "Server app is not running (bold-faced text generated using JavaScript when trying" +
+      " to send a request to the server app)";
   }
 }
+
+window.isServerAppRunning = isServerAppRunning();
