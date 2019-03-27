@@ -52,7 +52,7 @@ async function isServerAppRunning() {
 function setPadding() {
   let elements = document.getElementsByClassName("project-description");
   for (let i = 1; i < elements; i++) {
-    elements[i].style.padding = "0 10px 100px 10px";
+    elements[i].style.padding = "0 10px 200px 10px";
   }
 }
 
