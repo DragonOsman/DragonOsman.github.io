@@ -192,7 +192,8 @@ main {
 .project-description {
   background-color: #000;
   padding: 0 8px 0 10px;
-  display: inline-block; }
+  display: inline-block;
+  height: 100%; }
 
 #display-info {
   font-weight: bold; }
