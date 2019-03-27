@@ -91,7 +91,7 @@
   transition-delay: 0.4s; }
 
 html {
-  height: 100%; }
+  height: 100vh; }
 
 * {
   box-sizing: border-box; }
