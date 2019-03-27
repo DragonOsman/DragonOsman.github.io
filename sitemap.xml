@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
- <loc>https://dragonosman.github.io/</loc>
- <lastmod>2019-28-03</lastmod>
- <changefreq>sometimes</changefreq>
- <priority>1.0/priority>
+  <loc>https://dragonosman.github.io/</loc>
+  <lastmod>2019-03-27T22:11:14+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
- <loc>https://dragonosman.github.io/about.html</loc>
- <changefreq>seldom</changefreq>
+  <loc>https://dragonosman.github.io/index.html</loc>
+  <lastmod>2019-03-27T22:11:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
- <loc>https://dragonosman.github.io/contact.html</loc>
- <lastmod>2019-15-01</lastmod>
- <changefreq>seldom</changefreq>
+  <loc>https://dragonosman.github.io/about.html</loc>
+  <lastmod>2019-03-27T22:11:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
- <loc>https://dragonosman.github.io/work.html</loc>
- <lastmod>2019-28-03T02:33:12+00:00</lastmod>
- <priority>1.0</priority>
+  <loc>https://dragonosman.github.io/work.html</loc>
+  <lastmod>2019-03-27T22:11:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
- <loc>https://dragonosman.github.io/work/makechange.html</loc>
- <lastmod>2019-15-01</lastmod>
- <changefreq>never</changefreq>
+  <loc>https://dragonosman.github.io/contact.html</loc>
+  <lastmod>2019-03-27T22:11:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://dragonosman.github.io/work/makechange-wasm/makechange.html</loc>
+  <lastmod>2019-03-27T22:11:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
