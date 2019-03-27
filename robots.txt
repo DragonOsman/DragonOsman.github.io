@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /img
+Allow: /work/makechange.html
+Allow: /index.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /work.html
+Allow: /googlef0a3336a7ec95361.html
