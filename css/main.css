@@ -146,7 +146,8 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    background: rgba(73, 73, 73, 0.5); }
     main .icons a {
       padding: 0.4rem;
       color: #fff; }
@@ -231,7 +232,8 @@ main {
 
 #home-footer {
   text-align: right;
-  padding-right: 10px; }
+  padding-right: 10px;
+  background: rgba(73, 73, 73, 0.5); }
 
 @media screen and (min-width: 1171px) {
   .projects {
