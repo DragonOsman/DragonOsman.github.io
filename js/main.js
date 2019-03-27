@@ -39,15 +39,22 @@ async function isServerAppRunning() {
     const response = await fetch("https://dragonosman.dynu.net:5501/");
     if (response.status >= 200 && response.status < 300) {
       displayInfo.textContent =
-        "Server app is running (bold-faced text generated using JavaScript when trying" +
-        " to send a request to the server app)";
+        "Server app is running (bold-faced text generated using JavaScript)";
     }
   } catch (err) {
     console.log(err);
     displayInfo.textContent =
-      "Server app is not running (bold-faced text generated using JavaScript when trying" +
-      " to send a request to the server app)";
+      "Server app is not running (bold-faced text generated using JavaScript)";
+  }
+}
+
+// Function to apply padding values to divs with class project-description to even out bottom padding
+function setPadding() {
+  let elements = document.getElementsByClassName("project-description");
+  for (let i = 1; i < elements; i++) {
+    elements[i].style.padding = "0 10px 100px 10px";
   }
 }
 
 window.isServerAppRunning = isServerAppRunning();
+window.setPadding = setPadding();
