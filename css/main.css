@@ -90,6 +90,9 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+html {
+  height: 100%; }
+
 * {
   box-sizing: border-box; }
 
@@ -103,7 +106,8 @@ body {
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center center; }
     body#bg-img:after {
       content: "";
       position: absolute;
@@ -241,7 +245,8 @@ main {
   #bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center center; }
     #bg-img:after {
       content: "";
       position: absolute;
