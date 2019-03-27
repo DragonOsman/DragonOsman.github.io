@@ -48,13 +48,4 @@ async function isServerAppRunning() {
   }
 }
 
-// Function to apply padding values to divs with class project-description to even out bottom padding
-function setPadding() {
-  let elements = document.getElementsByClassName("project-description");
-  for (let i = 0; i < elements; i++) {
-    elements[i].style.padding = "10px 10px 100px 30px";
-  }
-}
-
 window.isServerAppRunning = isServerAppRunning();
-window.setPadding = setPadding();
