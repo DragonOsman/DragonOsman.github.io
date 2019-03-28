@@ -93,6 +93,9 @@
 * {
   box-sizing: border-box; }
 
+html {
+  height: 100%; }
+
 body {
   background: #444;
   color: #fff;
