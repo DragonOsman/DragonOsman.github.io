@@ -53,9 +53,10 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 170px;
-      height: 256px;
+      width: 157px;
+      height: 201px;
       background: url("../img/me.jpg");
+      background-repeat: no-repeat;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -172,6 +173,8 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
+    width: 157px;
+    height: 201px;
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
