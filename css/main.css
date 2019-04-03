@@ -25,7 +25,7 @@
   text-decoration: none;
   padding: 30px 30px; }
   .nav-link:hover {
-    background-color: #176474;
+    background-color: #287098;
     color: #fff; }
 
 * {
@@ -39,6 +39,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
+  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
@@ -76,7 +77,7 @@ a {
   color: #fff;
   text-decoration: none; }
   a:hover {
-    color: #176474; }
+    color: #287098; }
 
 header {
   position: fixed;
@@ -84,7 +85,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #176474; }
+  color: #287098; }
 
 main {
   padding: 4rem;
@@ -96,7 +97,7 @@ main {
       padding: 0.4rem;
       color: #fff; }
       main .icons a:hover {
-        color: #176474;
+        color: #287098;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -114,7 +115,7 @@ main {
     border-radius: 50%;
     width: 157px;
     height: 201px;
-    border: #176474 3px solid; }
+    border: #287098 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -122,7 +123,7 @@ main {
       color: #fff; }
       .about-info .bio a:hover {
         text-decoration: underline;
-        color: #176474; }
+        color: #287098; }
 
 .projects {
   display: grid;
@@ -133,7 +134,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #176474;
+      border-color: #287098;
       transition: all 0.5s ease-out; }
 
 .project-description {
@@ -151,7 +152,7 @@ main {
   grid-template-columns: repeat(2, 1fr); }
   .contact-info div.info {
     padding: 5px;
-    border-bottom: #176474 3px solid; }
+    border-bottom: #287098 3px solid; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -159,7 +160,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #176474;
+    background: #287098;
     color: #fff; }
 
 .btn-dark {
