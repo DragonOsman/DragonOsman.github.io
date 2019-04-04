@@ -48,28 +48,29 @@
   <body>
     <header>
       <nav class="navbar">
-        <ul class="navbar-nav">
-          <li class="logo">
-            <a href="index.html">
-              <img
-                src="img/logo.jpg"
-                width="50px"
-                height="50px"
-                alt="dragon logo"
-                class="dragon-logo"
-              />
-            </a>
-          </li>
-          <li class="nav-item">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <a class="logo" href="index.html">
+          <img
+            src="img/logo.jpg"
+            width="50px"
+            height="50px"
+            alt="dragon logo"
+            class="dragon-logo"
+          />
+        </a>
+        <ul class="main-nav" id="js-menu">
+          <li>
             <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item current">
+          <li>
             <a href="about.html" class="nav-link">About Me</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a href="work.html" class="nav-link">My Work</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a href="contact.html" class="nav-link">Contact Me</a>
           </li>
         </ul>
@@ -80,7 +81,13 @@
       <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">Let me tell you a few things...</h2>
       <div class="about-info">
-        <img src="img/me.jpg" alt="Osman Zakir" class="bio-image" />
+        <img
+          src="img/me.jpg"
+          alt="Osman Zakir"
+          width="157"
+          height="157"
+          class="bio-image"
+        />
 
         <div class="bio">
           <h3 class="text-secondary">BIO</h3>

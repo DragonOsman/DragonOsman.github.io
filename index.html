@@ -47,28 +47,29 @@
   <body id="bg-img">
     <header>
       <nav class="navbar">
-        <ul class="navbar-nav">
-          <li class="logo">
-            <a href="index.html">
-              <img
-                src="img/logo.jpg"
-                width="50px"
-                height="50px"
-                alt="dragon logo"
-                class="dragon-logo"
-              />
-            </a>
-          </li>
-          <li class="nav-item current">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <a class="logo" href="index.html">
+          <img
+            src="img/logo.jpg"
+            width="50px"
+            height="50px"
+            alt="dragon logo"
+            class="dragon-logo"
+          />
+        </a>
+        <ul class="main-nav" id="js-menu">
+          <li>
             <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a href="about.html" class="nav-link">About Me</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a href="work.html" class="nav-link">My Work</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a href="contact.html" class="nav-link">Contact Me</a>
           </li>
         </ul>
@@ -103,7 +104,7 @@
     <script src="js/main.js"></script>
     <footer id="home-footer">
       <div>
-        Logo in made with
+        Logo made with
         <a href="https://www.designevo.com/en/" title="Free Online Logo Maker"
           >DesignEvo</a
         >

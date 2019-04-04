@@ -1,36 +1,11 @@
-// Select DOM Items
-const menuBtn = document.querySelector(".menu-btn");
-const menu = document.querySelector(".menu");
-const menuNav = document.querySelector(".menu-nav");
-const menuBranding = document.querySelector(".menu-branding");
-const navItems = document.querySelectorAll(".nav-item");
-
-// Set Initial State Of Menu
-let showMenu = false;
-
-menuBtn.addEventListener("click", toggleMenu);
-
-function toggleMenu() {
-  if (!showMenu) {
-    menuBtn.classList.add("close");
-    menu.classList.add("show");
-    menuNav.classList.add("show");
-    menuBranding.classList.add("show");
-    navItems.forEach(item => item.classList.add("show"));
-
-    // Set Menu State
-    showMenu = true;
-  } else {
-    menuBtn.classList.remove("close");
-    menu.classList.remove("show");
-    menuNav.classList.remove("show");
-    menuBranding.classList.remove("show");
-    navItems.forEach(item => item.classList.remove("show"));
-
-    // Set Menu State
-    showMenu = false;
-  }
-}
+// On smaller screens keep only first link and CSS hamburger icon visible in navigation
+// menu and hide the rest of it, until hamburger is clicked which would be when the rest
+// of the navigation menu is shown
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+navBarToggle.addEventListener("click", () => {
+  mainNav.classList.toggle("active");
+});
 
 // Function to dynamically check if currency converter server application is running
 async function isServerAppRunning() {
