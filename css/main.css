@@ -3,35 +3,27 @@
   background-color: black;
   padding-bottom: 10px;
   width: 100%; }
-  .navbar-toggle {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 24px; }
 
 .main-nav {
-  list-style-type: none;
-  display: none; }
+  list-style-type: none; }
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+    padding: 22px 10px; }
 
 .nav-link {
   text-decoration: none;
-  color: #287098; }
+  color: #287098;
+  padding: 18px; }
   .nav-link:hover {
-    color: #fff; }
-
-.main-nav li {
-  text-align: center;
-  margin: 15px auto; }
+    background-color: #287098;
+    color: #fff;
+    transition: all 0.5s ease-out; }
 
 .logo {
   display: inline-block;
   margin-top: 10px;
   margin-left: 20px; }
-
-#js-menu.active {
-  display: block; }
 
 * {
   box-sizing: border-box;
@@ -62,7 +54,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(65, 66, 71, 0.5); }
+    background: rgba(50, 51, 55, 0.5); }
 
 a {
   color: #287098;
@@ -194,8 +186,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
-    align-items: center; }
+    height: 70px; }
     .navbar-toggle {
       display: none; }
   .main-nav {
@@ -263,8 +254,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
-    align-items: center; }
+    height: 70px; }
     .navbar-toggle {
       display: none; }
   .main-nav {
@@ -276,11 +266,15 @@ main {
       margin: 0; }
   .nav-link {
     margin-left: 40px; }
+    .nav-link:hover {
+      color: white; }
   .logo {
     margin-top: 0; }
-    .logo:hover,
-    .logo .nav-link:hover {
-      color: white; } }
+  header,
+  .main-nav,
+  .navbar {
+    height: 100%;
+    background-color: black; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -302,10 +296,7 @@ main {
   .navbar-toggle {
     display: inline-block; }
   .navbar {
-    font-size: 18px;
-    background-color: black;
-    padding-bottom: 10px;
-    width: 100%; }
+    padding-bottom: 10px; }
     .navbar-toggle {
       position: absolute;
       top: 10px;
@@ -313,18 +304,21 @@ main {
       cursor: pointer;
       color: rgba(255, 255, 255, 0.8);
       font-size: 24px; }
-  .main-nav {
-    list-style-type: none;
-    display: none; }
   .nav-link {
     text-decoration: none;
     color: #287098; }
     .nav-link:hover {
       color: #fff; }
-  .main-nav li {
-    text-align: center;
-    margin: 15px auto; }
+  .main-nav {
+    list-style-type: none;
+    display: none; }
+    .main-nav li {
+      text-align: center;
+      margin: 15px auto;
+      padding: 0; }
   .logo {
     display: inline-block;
     margin-top: 10px;
-    margin-left: 20px; } }
+    margin-left: 20px; }
+  #js-menu.active {
+    display: block; } }
