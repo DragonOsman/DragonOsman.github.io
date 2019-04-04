@@ -22,5 +22,3 @@ async function isServerAppRunning() {
       "Server app is not running (bold-faced text generated using JavaScript)";
   }
 }
-
-window.isServerAppRunning = isServerAppRunning();
