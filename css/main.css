@@ -198,11 +198,13 @@ main {
       margin: 0; }
   .nav-link {
     margin-left: 40px; }
-  .logo {
-    margin-top: 0; }
-    .logo:hover,
-    .logo .nav-link:hover {
-      color: white; } }
+    .nav-link:hover {
+      color: white; }
+  header,
+  .main-nav,
+  .navbar {
+    height: 100%;
+    background-color: black; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .about-info {
@@ -234,11 +236,13 @@ main {
       margin: 0; }
   .nav-link {
     margin-left: 40px; }
-  .logo {
-    margin-top: 0; }
-    .logo:hover,
-    .logo .nav-link:hover {
-      color: white; } }
+    .nav-link:hover {
+      color: white; }
+  header,
+  .main-nav,
+  .navbar {
+    height: 100%;
+    background-color: black; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -268,8 +272,6 @@ main {
     margin-left: 40px; }
     .nav-link:hover {
       color: white; }
-  .logo {
-    margin-top: 0; }
   header,
   .main-nav,
   .navbar {
