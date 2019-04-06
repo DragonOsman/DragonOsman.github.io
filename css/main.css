@@ -11,7 +11,7 @@
     margin: 15px auto;
     padding: 22px 10px; }
     .main-nav li a {
-      color: #cde5f2; }
+      color: #fff; }
 
 .nav-link {
   text-decoration: none;
@@ -252,13 +252,12 @@ main {
       line-height: 1;
       margin-bottom: 1rem;
       min-height: 0; }
-      main .lg-heading.show {
-        transform: translate3d(0, 0, 0); }
   .navbar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px; }
+    height: 70px;
+    align-items: center; }
     .navbar-toggle {
       display: none; }
   .main-nav {
@@ -266,17 +265,12 @@ main {
     margin-right: 30px;
     flex-direction: row;
     justify-content: flex-end; }
-    .main-nav li {
+    .main-nav.nav-item {
       margin: 0; }
-  .nav-link {
+  .nav-links {
     margin-left: 40px; }
-    .nav-link:hover {
-      color: white; }
-  header,
-  .main-nav,
-  .navbar {
-    height: 100%;
-    background-color: black; } }
+  .logo {
+    display: inline-block; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -295,31 +289,34 @@ main {
       border-bottom: #287098 3px solid; }
   .projects {
     grid-template-columns: 1fr; }
-  .navbar-toggle {
-    display: inline-block; }
   .navbar {
-    padding-bottom: 10px; }
+    font-size: 18px;
+    background: black;
+    height: 100%; }
     .navbar-toggle {
+      display: inline-block;
+      position: absolute;
       top: 10px;
       right: 20px;
       cursor: pointer;
       color: rgba(255, 255, 255, 0.8);
       font-size: 24px; }
-  .nav-link {
-    text-decoration: none;
-    color: #287098; }
-    .nav-link:hover {
-      color: #fff; }
   .main-nav {
     list-style-type: none;
-    display: none; }
+    display: none;
+    height: 100%; }
     .main-nav li {
       text-align: center;
-      margin: 15px auto;
-      padding: 0; }
+      margin: 15px auto; }
+  .nav-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7); }
+    .nav-link:hover {
+      background-color: #287098;
+      transition: all 0.5s ease-out; }
   .logo {
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px; }
-  #js-menu.active {
-    display: block; } }
+  .active {
+    display: inline-block; } }
