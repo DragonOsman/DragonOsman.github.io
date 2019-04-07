@@ -1,34 +1,45 @@
 .navbar {
-  font-size: 18px;
-  background-color: black;
-  padding-bottom: 10px;
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5px;
+  background-color: #1f1f21; }
 
-.main-nav {
-  list-style-type: none; }
-  .main-nav li {
-    text-align: center;
-    margin: 15px auto;
-    padding: 22px 10px; }
-    .main-nav li a {
-      color: #fff; }
-
-.nav-link {
-  text-decoration: none;
-  padding: 18px; }
-  .nav-link:hover {
-    background-color: #287098;
-    transition: all 0.5s ease-out; }
+.navbar-toggle {
+  display: none; }
 
 .logo {
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 20px; }
+  float: left;
+  margin: 8px; }
+  .logo:after {
+    clear: both; }
+
+.main-nav {
+  display: flex;
+  list-style-type: none;
+  text-align: center; }
+  .main-nav > .nav-item {
+    flex: 1;
+    text-decoration: none;
+    padding: 12px;
+    margin-top: 9px; }
+    .main-nav > .nav-item .nav-link {
+      color: #fff;
+      background-color: #287098;
+      padding: 18px; }
+      .main-nav > .nav-item .nav-link:hover {
+        background-color: #2d2e31;
+        transition: all 0.5s ease-out; }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
+
+header {
+  background-color: #1f1f21;
+  width: 100%;
+  height: 70px;
+  position: fixed; }
 
 body {
   background: #37383c;
@@ -154,7 +165,16 @@ main {
   color: #fff; }
 
 #home-footer {
-  padding: 14px; }
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f21;
+  color: #fff;
+  position: fixed; }
+  #home-footer a {
+    color: #287098; }
+    #home-footer a:hover {
+      color: #fff; }
 
 .about-info {
   grid-template-areas: "bioimage" "bio";
@@ -181,30 +201,7 @@ main {
       padding: 5px;
       border-bottom: #287098 3px solid; }
   .projects {
-    grid-template-columns: repeat(4, 1fr); }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0;
-    height: 70px; }
-    .navbar-toggle {
-      display: none; }
-  .main-nav {
-    display: flex;
-    margin-right: 30px;
-    flex-direction: row;
-    justify-content: flex-end; }
-    .main-nav li {
-      margin: 0; }
-  .nav-link {
-    margin-left: 40px; }
-    .nav-link:hover {
-      color: white; }
-  header,
-  .main-nav,
-  .navbar {
-    height: 100%;
-    background-color: black; } }
+    grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .about-info {
@@ -218,31 +215,7 @@ main {
       padding: 5px;
       border-bottom: #287098 3px solid; }
   .projects {
-    grid-template-columns: repeat(3, 1fr); }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0;
-    height: 70px;
-    align-items: center; }
-    .navbar-toggle {
-      display: none; }
-  .main-nav {
-    display: flex;
-    margin-right: 30px;
-    flex-direction: row;
-    justify-content: flex-end; }
-    .main-nav li {
-      margin: 0; }
-  .nav-link {
-    margin-left: 40px; }
-    .nav-link:hover {
-      color: white; }
-  header,
-  .main-nav,
-  .navbar {
-    height: 100%;
-    background-color: black; } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -252,25 +225,10 @@ main {
       line-height: 1;
       margin-bottom: 1rem;
       min-height: 0; }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0;
-    height: 70px;
-    align-items: center; }
-    .navbar-toggle {
-      display: none; }
   .main-nav {
-    display: flex;
-    margin-right: 30px;
-    flex-direction: row;
-    justify-content: flex-end; }
-    .main-nav.nav-item {
-      margin: 0; }
-  .nav-links {
-    margin-left: 40px; }
-  .logo {
-    display: inline-block; } }
+    flex-wrap: wrap; }
+    .main-nav > .nav-item {
+      flex-basis: 50%; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -290,9 +248,8 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .navbar {
-    font-size: 18px;
-    background: black;
-    height: 100%; }
+    height: 100%;
+    background-color: #1f1f21; }
     .navbar-toggle {
       display: inline-block;
       position: absolute;
@@ -301,22 +258,18 @@ main {
       cursor: pointer;
       color: rgba(255, 255, 255, 0.8);
       font-size: 24px; }
+  header {
+    height: 60px; }
+  .navbar {
+    height: 100%;
+    background-color: #1f1f21; }
   .main-nav {
-    list-style-type: none;
+    flex-wrap: wrap;
     display: none;
     height: 100%; }
-    .main-nav li {
-      text-align: center;
-      margin: 15px auto; }
-  .nav-link {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7); }
-    .nav-link:hover {
-      background-color: #287098;
-      transition: all 0.5s ease-out; }
-  .logo {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px; }
+    .main-nav > .nav-item {
+      flex-basis: 100%; }
   .active {
-    display: inline-block; } }
+    display: flex; }
+  .logo {
+    margin-top: 4px; } }
