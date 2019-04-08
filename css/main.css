@@ -180,6 +180,19 @@ main {
     #home-footer a:hover {
       color: #fff; }
 
+.about-info {
+  grid-template-areas: "bioimage" "bio" "skillprof";
+  grid-template-columns: 1fr; }
+
+.contact-info {
+  grid-template-columns: repeat(2, 1fr); }
+  .contact-info div.info {
+    padding: 5px;
+    border-bottom: #287098 3px solid; }
+
+.projects {
+  grid-template-columns: repeat(2, 1fr); }
+
 @media screen and (min-width: 1171px) {
   .about-info {
     grid-template-areas: "bioimage bio bio" "skillprof skillprof skillprof";
@@ -219,17 +232,7 @@ main {
   .main-nav {
     flex-wrap: wrap; }
     .main-nav > .nav-item {
-      flex-basis: 50%; }
-  .about-info {
-    grid-template-areas: "bioimage" "bio" "skillprof";
-    grid-template-columns: 1fr; }
-  .contact-info {
-    grid-template-columns: repeat(2, 1fr); }
-    .contact-info div.info {
-      padding: 5px;
-      border-bottom: #287098 3px solid; }
-  .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+      flex-basis: 50%; } }
 
 @media screen and (max-width: 500px) {
   main {
