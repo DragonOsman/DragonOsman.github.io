@@ -3,9 +3,8 @@
   height: 100%;
   padding-bottom: 5px;
   background-color: #1f1f21; }
-
-.navbar-toggle {
-  display: none; }
+  .navbar-toggle {
+    display: none; }
 
 .logo {
   float: left;
@@ -38,7 +37,9 @@
 header {
   background-color: #1f1f21;
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  height: 67px;
+  vertical-align: center; }
 
 body {
   background: #37383c;
@@ -251,6 +252,8 @@ main {
       border-bottom: #287098 3px solid; }
   .projects {
     grid-template-columns: 1fr; }
+  header {
+    height: 60px; }
   .navbar {
     height: 100%;
     background-color: #1f1f21; }
@@ -271,6 +274,9 @@ main {
     .main-nav > .nav-item {
       flex-basis: 100%; }
   .active {
-    display: flex; }
+    display: flex;
+    height: 245px;
+    background-size: cover;
+    background-color: #1f1f21; }
   .logo {
     margin-top: 4px; } }
