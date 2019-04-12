@@ -114,6 +114,8 @@ main {
   .about-info .skill-prof {
     grid-area: skillprof;
     font-size: 1rem; }
+  .about-info .test-result {
+    grid-area: test-result-info; }
 
 .projects {
   display: grid;
