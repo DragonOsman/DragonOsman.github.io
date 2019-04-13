@@ -106,8 +106,7 @@ main {
     border: #287098 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 16px;
-    font-weight: normal; }
+    font-size: 16px; }
     .about-info .bio a {
       color: #fff; }
       .about-info .bio a:hover {
