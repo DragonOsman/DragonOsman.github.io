@@ -106,7 +106,7 @@ main {
     border: #287098 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 12.5px;
+    font-size: 16px;
     font-weight: normal; }
     .about-info .bio a {
       color: #fff; }
