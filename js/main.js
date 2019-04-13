@@ -9,7 +9,7 @@ navBarToggle.addEventListener("click", () => {
 
 // Function to dynamically check if currency converter server application is running
 async function isServerAppRunning() {
-  const button = document.getElementById("isrunning");
+  let button = document.getElementById("isrunning");
   button.addEventListener("click", function() {
     const displayInfo = document.getElementById("display-info");
     try {
