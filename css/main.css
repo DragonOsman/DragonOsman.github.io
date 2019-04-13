@@ -95,14 +95,14 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "skillprof skillprof skillprof";
+  grid-template-areas: "bioimage bio bio" "skillprof skillprof testresult";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
     width: 157px;
-    height: 201px;
+    height: 157px;
     border: #287098 3px solid; }
   .about-info .bio {
     grid-area: bio;
@@ -114,8 +114,10 @@ main {
   .about-info .skill-prof {
     grid-area: skillprof;
     font-size: 1rem; }
-  .about-info .test-result {
-    grid-area: test-result-info; }
+  .about-info .test-result-info {
+    grid-area: testresult; }
+  .about-info .testdome-cerificate-stamp {
+    grid-area: testdome; }
 
 .projects {
   display: grid;
@@ -183,23 +185,7 @@ main {
     #home-footer a:hover {
       color: #fff; }
 
-.about-info {
-  grid-template-areas: "bioimage" "bio" "skillprof";
-  grid-template-columns: 1fr; }
-
-.contact-info {
-  grid-template-columns: repeat(2, 1fr); }
-  .contact-info div.info {
-    padding: 5px;
-    border-bottom: #287098 3px solid; }
-
-.projects {
-  grid-template-columns: repeat(2, 1fr); }
-
 @media screen and (min-width: 1171px) {
-  .about-info {
-    grid-template-areas: "bioimage bio bio" "skillprof skillprof skillprof";
-    grid-template-columns: repeat(3, 1fr); }
   .contact-info {
     display: grid;
     grid-gap: 20px;
@@ -211,9 +197,6 @@ main {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
-  .about-info {
-    grid-template-areas: "bioimage bio bio" "skillprof skillprof skillprof";
-    grid-template-columns: repeat(3, 1fr); }
   .contact-info {
     display: grid;
     grid-gap: 20px;
@@ -232,6 +215,11 @@ main {
       line-height: 1;
       margin-bottom: 1rem;
       min-height: 0; }
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "skillprof" "testresult";
+    grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: repeat(2, 1fr); }
   .main-nav {
     flex-wrap: wrap; }
     .main-nav > .nav-item {
@@ -245,6 +233,9 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "skillprof" "testresult";
+    grid-template-columns: 1fr; }
   .contact-info {
     display: grid;
     grid-gap: 20px;
