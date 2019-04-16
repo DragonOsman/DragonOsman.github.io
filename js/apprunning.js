@@ -8,7 +8,7 @@ async function isServerAppRunning() {
         "Server app is running (bold-faced text generated using JavaScript)";
     } else {
       displayInfo.textContent =
-        "Server is not running (bold-faced text generated using JavaScript)";
+        "Something went wrong (bold-faced text generated using JavaScript)";
     }
   } catch (err) {
     console.log(err);
