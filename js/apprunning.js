@@ -3,7 +3,7 @@ async function isServerAppRunning() {
   const displayInfo = document.getElementById("display-info");
   try {
     const response = await fetch("https://dragonosman.dynu.net:5501/");
-    if (response.status >= 200 && response.status < 300) {
+    if (response.ok) {
       displayInfo.textContent =
         "Server app is running (bold-faced text generated using JavaScript)";
     } else {
