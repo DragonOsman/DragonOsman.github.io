@@ -41,14 +41,16 @@ header {
   height: 67px;
   vertical-align: center; }
 
-body#bg-image {
-  background: linear-gradient(#287098, #37383c);
-  background: #37383c;
+body {
+  background-color: #37383c;
   background-size: cover;
   height: 100%;
   color: #e6e6e6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
+  body#bg-img {
+    background: linear-gradient(#287098, #37383c);
+    background-size: cover; }
 
 h1,
 h2,
@@ -134,7 +136,7 @@ main {
   background-color: #000;
   padding: 0 10px 5px 10px;
   display: inline-block;
-  height: 315px; }
+  height: 335px; }
 
 #display-info {
   font-weight: bold; }
