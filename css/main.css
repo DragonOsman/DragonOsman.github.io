@@ -70,7 +70,8 @@ h3 {
 
 a {
   color: #287098;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
   a:hover {
     color: black; }
 
