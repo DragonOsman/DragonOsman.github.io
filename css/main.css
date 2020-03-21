@@ -115,7 +115,7 @@ main {
         color: #287098; }
 
 .certificate {
-  display: inline-block !important; }
+  display: inline-block; }
 
 .projects {
   display: grid;
