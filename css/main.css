@@ -120,7 +120,7 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(2, 1fr); }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
@@ -193,7 +193,7 @@ main {
       padding: 5px;
       border-bottom: #287098 3px solid; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .contact-info {
@@ -204,7 +204,7 @@ main {
       padding: 5px;
       border-bottom: #287098 3px solid; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -218,7 +218,7 @@ main {
     grid-template-areas: "bioimage" "bio" "testresult";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: 1fr; }
+    grid-template-columns: repeat(2, 1fr); }
   .main-nav {
     flex-wrap: wrap;
     display: none; }
