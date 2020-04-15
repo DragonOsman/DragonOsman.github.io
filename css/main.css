@@ -250,7 +250,7 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "testresult";
+    grid-template-areas: "bioimage" "bio" "testresult testresult testresult";
     grid-template-columns: 1fr; }
   .contact-info {
     display: grid;
