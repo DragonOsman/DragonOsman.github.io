@@ -225,7 +225,7 @@ main {
       margin-bottom: 1rem;
       min-height: 0; }
   .about-info {
-    grid-template-areas: "bioimage" "bio";
+    grid-template-areas: "bio";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
@@ -259,7 +259,7 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .about-info {
-    grid-template-areas: "bioimage" "bio";
+    grid-template-areas: "bio";
     grid-template-columns: 1fr; }
   .test-results {
     display: flex;
