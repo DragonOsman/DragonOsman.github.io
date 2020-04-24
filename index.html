@@ -5,17 +5,16 @@
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-137164146-1"
-    ></script>
+      ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
+      
       gtag("config", "UA-137164146-1");
     </script>
-
     <link rel="manifest" href="site.webmanifest" />
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="icon" type="image/gif" href="img/animated_favicon1.gif" />
@@ -23,17 +22,17 @@
       name="keywords"
       content="Osman, Zakir, portfolio, website, programmer, web, developer, 
       HTML, CSS, JavaScript, C++, WebAssembly, logo"
-    />
+      />
     <meta
       name="description"
       content="I'm Osman Zakir, programming student and freelancer specializing in C++, HTML, CSS, JavaScript, 
       and WebAssembly."
-    />
+      />
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, height=device-height, initial-scale=1.0"
-    />
+      />
     <meta name="author" content="Osman Zakir" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Osman Zakir's Portfolio Website</title>
@@ -43,70 +42,453 @@
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
       crossorigin="anonymous"
-    />
+      />
   </head>
-  <body id="bg-img">
+  <body>
     <header>
-      <a class="logo" href="index.html">
-        <img
-          src="img/logo.png"
-          width="50px"
-          height="50px"
-          alt="dragon logo"
-          class="dragon-logo"
+      <a class="logo" href="#home">
+      <img
+        src="img/logo.png"
+        width="50px"
+        height="50px"
+        alt="dragon logo"
+        class="dragon-logo"
         />
       </a>
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <span class="navbar-toggle" id="js-navbar-toggle">
-          <i class="fas fa-bars"></i>
+        <i class="fas fa-bars"></i>
         </span>
         <ul class="main-nav" id="js-menu">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="#welcome-section" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About Me</a>
+            <a href="#about" class="nav-link">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="work.html" class="nav-link">My Work</a>
+            <a href="#projects" class="nav-link">My Projects</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact Me</a>
+            <a href="#contact" class="nav-link">Contact Me</a>
           </li>
         </ul>
       </nav>
     </header>
-
-    <main id="home">
-      <h1 class="lg-heading">
-        Osman <span class="text-secondary">Zakir</span>
-      </h1>
-
-      <h2 class="sm-heading">
-        Programmer, Web Developer (C++, WebAssembly, JavaScript, HTML, CSS, Git, SQL)
-      </h2>
-
-      <div class="icons">
-        <a
-          href="https://www.linkedin.com/in/osman-zakir-12b6a7119/"
-          target="_blank"
-          ><i class="fab fa-linkedin fa-2x"></i
-        ></a>
-        <a href="https://github.com/DragonOsman/" target="_blank"
-          ><i class="fab fa-github fa-2x"></i
-        ></a>
-        <a href="https://plus.google.com/u/0/+OsmanZakir" target="_blank"
-          ><i class="fab fa-google-plus fa-2x"></i
-        ></a>
+    <main>
+      <div id="welcome-section">
+        <img
+          src="img/me.jpg"
+          alt="Osman Zakir"
+          width="157"
+          height="157"
+          class="bio-image"
+          />
+        <h1 class="lg-heading">
+          Welcome to <span class="text-secondary">Osman Zakir</span>'s Portfolio Webpage
+        </h1>
+        <h2 class="sm-heading">
+          Programmer, Web Developer (C++, WebAssembly, JavaScript, HTML, CSS, Git)
+        </h2>
+        <div class="icons">
+          <a 
+            href="https://www.linkedin.com/in/osman-zakir-12b6a7119/"
+            target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/DragonOsman/" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+            ></a>
+          <a href="https://plus.google.com/u/0/+OsmanZakir" target="_blank"
+            ><i class="fab fa-google-plus fa-2x"></i
+            ></a>
+        </div>
+      </div>
+      <div id="about">
+        <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
+        <h2 class="sm-heading">Let me tell you a few things...</h2>
+        <div class="bio-and-image">
+          <div class="about-info">
+            <div class="bio">
+              <h3 class="text-secondary">BIO</h3>
+              <p>
+                My name Osman Zakir. My name in most forums is DragonOsman. I'm a
+                web developer and programmer.  I'm skilled in C++, WebAssembly (compiling from C++), 
+                JavaScript, HTML and CSS. I'm reading the C++17 book <i>Beginning C++17: 
+                From Novice to Professional, 5th Edition</i> by Ivor Horton annd Peter Van Weert. 
+                I'm also doing the lessons and challenges on <a href="https://www.freecodecamp.org/" 
+                  target="_blank">FreeCodeCamp</a>.
+              </p>
+              <p>
+                I know how to use Git as well.  This website itself was coded on Visual Studio Code 
+                and published on GitHub Pages via Git on the command line.  I followed Brad Traversy's video 
+                tutorial series on making a responsive portfolio site and changed it a bit.
+              </p>
+              <p>
+                I've done a few projects.  I'd like to get some freelance work to gain some experience 
+                and then land a job at a tech company.  Internship is fine too (at first).
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="test-results">
+          <p class="test-result-info">
+            I took the C++ test on TestDome (the problems marked Easy) and passed it
+            with 100%, while getting 67% on the harder problem. I also took the
+            "JavaScript" and "HTML/CSS and JavaScript" tests and passed them. On
+            the latter test I had a total score of 67% (best out of 25% of
+            test-takers).
+          </p>
+          <div class="break"></div>
+          <div class="certificate">
+            <a
+              href="https://www.testdome.com/cert/ce57488a3f0a4950befd4876c3dc2c76"
+              class="testdome-certificate-stamp gold"
+              >
+            <span class="testdome-certificate-name">Osman Zakir</span>
+            <span class="testdome-certificate-test-name">C++ </span>
+            <span class="testdome-certificate-card-logo"
+              >TestDome <br />Certificate</span
+              ></a
+              >
+            <script type="text/javascript">
+              var stylesheet = 
+                "https://www.testdome.com/content/source/stylesheets/embed.css",
+                link = document.createElement("link");
+                (link.href = stylesheet),
+                (link.type = "text/css"),
+                (link.rel = "stylesheet"),
+                (link.media = "screen,print"),
+              document.getElementsByTagName("head")[0].appendChild(link);
+            </script>
+          </div>
+          <div class="certificate">
+            <a 
+              href="https://www.testdome.com/cert/5a4637d73e0b4f8fbb69459ba0e77416"
+              class="testdome-certificate-stamp gold"
+              ><span class="testdome-certificate-name">Osman Zakir</span
+              ><span class="testdome-certificate-test-name">JavaScript </span
+              ><span class="testdome-certificate-card-logo"
+              >TestDome<br />Certificate</span
+              ></a>
+            <script type="text/javascript">
+              var stylesheet =
+                "https://www.testdome.com/content/source/stylesheets/embed.css",
+                link = document.createElement("link");
+                (link.href = stylesheet),
+                (link.type = "text/css"),
+                (link.rel = "stylesheet"),
+                (link.media = "screen,print"),
+                document.getElementsByTagName("head")[0].appendChild(link);
+            </script>
+          </div>
+          <div class="certificate">
+            <a
+              href="https://www.testdome.com/cert/2d9a448b09c149bdbc0f966761429b59"
+              class="testdome-certificate-stamp silver"
+              ><span class="testdome-certificate-name">Osman Zakir</span
+              ><span class="testdome-certificate-test-name"
+              >HTML/CSS and JavaScript </span
+              ><span class="testdome-certificate-card-logo"
+              >TestDome<br />Certificate</span
+              ></a>
+            <script type="text/javascript">
+              var stylesheet =
+                  "https://www.testdome.com/content/source/stylesheets/embed.css",
+                link = document.createElement("link");
+                (link.href = stylesheet),
+                (link.type = "text/css"),
+                (link.rel = "stylesheet"),
+                (link.media = "screen,print"),
+                document.getElementsByTagName("head")[0].appendChild(link);
+            </script>
+          </div>
+        </div>
+      </div>
+      <div id="projects">
+        <h1 class="lg-heading">My <span class="text-secondary">Projects</span></h1>
+        <h2 class="sm-heading">
+          Check out some of my projects...
+        </h2>
+        <h3>
+          Contact me via Facebook or email and pay through Payoneer if interested.  
+        </h3>
+        <br>
+        <div class="projects">
+          <div class="project-tile">
+            <a href="https://dragonosman.dynu.net:5501/" target="_blank">
+            <img
+              src="img/projects/gglmapcurrencyconv.jpg"
+              alt="Project1"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>
+                Google Map + Currency Converter Web Server Application
+              </h4>
+              <p class="description">
+                Currency converter web app with a Google Maps GUI and a web server
+                backend written in C++. I'll be hosting the web server on my own
+                computer and won't always be running it. This app requires the browser 
+                to ask for your location to center the map there and open the info window 
+                with the form.  The app has a fall-back behavior to use if it can't get the 
+                user's location, however.
+              </p>
+              <p>
+                I created this app to try to give more usage experience to the Boost.Beast library.  
+                The library author said he would write a proposal paper to include the library 
+                into the standard if it gets enough usage experience (and also if the ASIO 
+                library is already in the standard by then).
+                <span id="display-info"></span>
+                <button id="isAppRunning">
+                Click to see if the server app is running.
+                </button>
+              </p>
+            </div>
+            <a
+              href="https://dragonosman.dynu.net:5501/"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/currency_converter"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="work/makechange-wasm/makechange.html" target="_blank">
+            <img
+              src="img/projects/makechangewasm.jpg"
+              alt="Project2"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>Make-Change WebAssembly</h4>
+              <p class="description">
+                WebAssembly application (C++). Takes a price in the range (0-100)
+                and displays the amount of change due in dimes and pennies.
+                Requires input just once, from a popup dialogue box. Will continue
+                producing more until stopped (click checkbox).
+              </p>
+            </div>
+            <a
+              href="work/makechange-wasm/makechange.html"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/makechange-wasm"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://codepen.io/DragonOsman/full/gLprGB" target="_blank">
+            <img
+              src="img/projects/wiki-viewer-app.jpg"
+              alt="Project3"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>Wikipedia Article Viewer</h4>
+              <p class="description">
+                An app I made on CodePen when taking the Free Code Camp course. It
+                was a challenge on Free Code Camp. It shows a random Wikipedia
+                article page when the button for that is clicked. Search button
+                works now.
+              </p>
+            </div>
+            <a
+              href="https://codepen.io/DragonOsman/full/gLprGB"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/wiki-viewer-app"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://codepen.io/DragonOsman/pen/ZBEOmw" target="_blank">
+            <img
+              src="img/projects/randomquotesmachine.jpg"
+              alt="Project4"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>Twitter Random Quotes Machine</h4>
+              <p class="description">
+                An app I made on CodePen when taking the Free Code Camp course. It
+                was a callenge on Free Code Camp. It prints random quotes from
+                Twitter when the button is clicked.
+              </p>
+            </div>
+            <a
+              href="https://codepen.io/DragonOsman/pen/ZBEOmw"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/randomquotemachine"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://codepen.io/DragonOsman/full/gObXXjL" target="_blank">
+            <img
+              src="img/projects/countdowntimer.jpg"
+              alt="Project5"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>
+                Countdown Timer Application
+              </h4>
+              <p class="description">
+                This is my countdown timer app.  The user has to choose a date and time to count down to, 
+                with the date and time field being required, and there's also a (required) field to 
+                enter the event name.  There is also a button to stop the timer in addition to the for starting it.  
+              </p>
+            </div>
+            <a
+              href="https://codepen.io/DragonOsman/full/gObXXjL"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/countdown-timer-app"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://codepen.io/DragonOsman/full/eYNpNmw" target="_blank">
+            <img
+              src="img/projects/localweatherapp.jpg"
+              alt="Project6"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>
+                Local Weather App
+              </h4>
+              <p class="description">
+                This is a local weather app I made for Free Code Camp.  It uses their weather API to get 
+                the weather data.  I display the main weather info along with the weather icon, including 
+                the humidity, wind speed, wind pressure, and temperature, as well as the city and country 
+                name from the Free Code Camp weathe API.  This app uses HTML5 Geolocation to get the user's 
+                location.  If the user doesn't provide persmission to use their location, the app will default 
+                to New York City, NY in the US.  
+              </p>
+            </div>
+            <a
+              href="https://codepen.io/DragonOsman/full/eYNpNmw"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/local-weather-app"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://codepen.io/DragonOsman/full/abOvqEN" target="_blank">
+            <img
+              src="img/projects/twitchstreamersapp.jpg"
+              alt="Project7"
+              class="project-img"
+              />
+            </a>
+            <div class="project-description">
+              <h4>
+                DragonOsman Twitch API App
+              </h4>
+              <p class="description">
+                This is an app I made for FreeCodeCamp that uses the Twitch API to get streamer data.  It shows 
+                if a streamer is online by showing their streaming data, otherwise says they are offline.  You 
+                can go to their Twitch profile page by clicking on their username.  
+              </p>
+            </div>
+            <a
+              href="https://codepen.io/DragonOsman/full/abOvqEN"
+              target="_blank"
+              class="btn-light"
+              >
+            <i class="fas fa-eye"></i> Project
+            </a>
+            <a
+              href="https://github.com/DragonOsman/twitch-api-app"
+              class="btn-dark"
+              target="_blank"
+              >
+            <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
+        <h2 class="sm-heading">This is how you can reach me...</h2>
+        <div class="contact-info">
+          <div class="info">
+            <span class="text-secondary">Email:</span> 
+            <a href="mailto:osmanzakir90@hotmail.com" target="_blank">
+            osmanzakir90@hotmail.com</a>
+          </div>
+          <div class="info">
+            <span class="text-secondary">LinkedIn Profile:</span> 
+            <a href="https://www.linkedin.com/in/osman-zakir-12b6a7119/" target="_blank">
+            https://www.linkedin.com/in/osman-zakir-12b6a7119/
+            </a>
+          </div>
+          <div class="info">
+            <span class="text-secondary">GitHub Profile:</span> 
+            <a href="https://github.com/DragonOsman" target="_blank" id="profile-link">
+            https://github.com/DragonOsman</a>
+          </div>
+        </div>
       </div>
     </main>
-
     <footer id="home-footer">
       <div>
         Logo made with
         <a href="https://www.designevo.com/en/" title="Free Online Logo Maker"
           >DesignEvo</a
-        >
+          >
       </div>
     </footer>
     <script src="js/main.js"></script>

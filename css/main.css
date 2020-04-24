@@ -48,9 +48,6 @@ body {
   color: #e6e6e6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
-  body#bg-img {
-    background: linear-gradient(#287098, #37383c);
-    background-size: cover; }
 
 h1,
 h2,
@@ -89,23 +86,22 @@ main {
       main .icons a:hover {
         color: #287098;
         transition: all 0.5s ease-out; }
-  main#home {
-    overflow: hidden; }
-    main#home h1 {
-      margin-top: 20vh; }
+  main #welcome-section {
+    width: 100%;
+    height: 100%; }
+
+.bio-image {
+  margin-top: 1vh;
+  border-radius: 50%;
+  width: 157px;
+  height: 157px;
+  border: #287098 3px solid; }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio";
+  grid-template-areas: "bio bio bio";
   grid-template-columns: repeat(3, 1fr); }
-  .about-info .bio-image {
-    grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
-    width: 157px;
-    height: 157px;
-    border: #287098 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 16px; }
