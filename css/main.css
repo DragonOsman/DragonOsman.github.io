@@ -10,7 +10,8 @@
   float: left;
   margin: 8px; }
   .logo:after {
-    clear: both; }
+    clear: left;
+    content: ""; }
 
 .main-nav {
   display: flex;
