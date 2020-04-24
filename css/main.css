@@ -191,6 +191,8 @@ main {
     color: #287098; }
     #home-footer a:hover {
       color: #fff; }
+  #home-footer .copyright {
+    margin-right: 15px; }
 
 @media screen and (min-width: 1171px) {
   .contact-info {
