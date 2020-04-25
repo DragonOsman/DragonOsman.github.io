@@ -89,7 +89,7 @@ main {
         transition: all 0.5s ease-out; }
   main #welcome-section {
     width: 100%;
-    height: 100%; }
+    height: 300px; }
 
 .bio-image {
   margin-top: 1vh;
@@ -97,6 +97,9 @@ main {
   width: 157px;
   height: 157px;
   border: #287098 3px solid; }
+
+#about {
+  margin-top: 290px; }
 
 .about-info {
   display: grid;
