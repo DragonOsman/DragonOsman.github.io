@@ -89,7 +89,7 @@ main {
         transition: all 0.5s ease-out; }
   main #welcome-section {
     width: 100%;
-    height: 300px; }
+    height: 100vh; }
 
 .bio-image {
   margin-top: 1vh;
@@ -98,8 +98,11 @@ main {
   height: 157px;
   border: #287098 3px solid; }
 
+#about, #projects, #contact {
+  margin-bottom: 12vh; }
+
 #about {
-  margin-top: 290px; }
+  margin-top: 1vh; }
 
 .about-info {
   display: grid;
@@ -218,7 +221,9 @@ main {
       padding: 5px;
       border-bottom: #287098 3px solid; }
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  #about {
+    margin-top: 50vh; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -228,9 +233,13 @@ main {
       line-height: 1;
       margin-bottom: 1rem;
       min-height: 0; }
+  #about {
+    margin-top: 40vh; }
   .about-info {
     grid-template-areas: "bio";
     grid-template-columns: 1fr; }
+  .test-results {
+    flex-direction: column; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   .main-nav {
@@ -262,6 +271,8 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
+  #about {
+    margin-top: 35vh; }
   .about-info {
     grid-template-areas: "bio";
     grid-template-columns: 1fr; }
