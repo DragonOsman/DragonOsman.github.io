@@ -79,6 +79,14 @@ a {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
+  main .masha-allah-img {
+    float: right;
+    width: 150px;
+    height: 70px;
+    margin-top: 1vh;
+    margin-right: 55px; }
+    main .masha-allah-img::after {
+      clear: both; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -263,7 +271,11 @@ main {
 @media screen and (min-width: 501px) and (max-width: 767px) {
   #home {
     height: 100vh; }
-  #about, #projects, #contact {
+  main .masha-allah-img {
+    margin-top: 2vh; }
+  #about {
+    margin-top: 5vh; }
+  #about, #contact, #projects {
     margin-bottom: 3vh; }
   .navbar {
     height: 100%; }
@@ -288,19 +300,21 @@ main {
     background-color: #1f1f21; } }
 
 @media screen and (max-width: 500px) {
+  #home {
+    height: 100vh; }
   #about {
-    margin-top: 12vh; }
+    margin-top: 70vh; }
   main {
     padding: 2rem; }
     main #home {
       height: 100vh; }
       main #home h1 {
         margin-top: 2vh; }
+      main #home .masha-allah-img {
+        margin-top: 30px; }
       main #home .lg-heading {
         margin-top: 1rem;
         font-size: 5rem; }
-    main #about {
-      margin-top: 30vh; }
     main #about, main #projects, main #contact {
       margin-bottom: 5vh; }
   .bio-image {
