@@ -97,10 +97,6 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
 }
-main .masha-allah-img {
-  width: 100px;
-  height: 46px;
-}
 main .icons {
   margin-top: 1rem;
 }
