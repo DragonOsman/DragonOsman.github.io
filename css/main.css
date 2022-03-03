@@ -12,8 +12,8 @@
   float: left;
   margin: 8px;
 }
-.logo:after {
-  clear: left;
+.logo::after {
+  clear: right;
   content: "";
 }
 
