@@ -272,7 +272,7 @@ main #home {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (min-width: 701px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   #about, #projects, #contact {
     margin-bottom: 3vh;
   }
@@ -333,7 +333,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 501px) and (max-width: 700px) {
+@media screen and (min-width: 501px) and (max-width: 767px) {
   #about, #contact, #projects {
     margin-bottom: 3vh;
   }
