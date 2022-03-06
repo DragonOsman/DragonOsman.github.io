@@ -48,6 +48,8 @@ header {
   background-color: #1f1f21;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   height: 67px;
   vertical-align: center;
 }
@@ -111,6 +113,7 @@ main .icons a:hover {
 main #home {
   width: 100%;
   height: 100vh;
+  background-image: linear-gradient(#37383c, #287098);
 }
 
 #about, #projects, #contact {
@@ -219,15 +222,6 @@ main #home {
   color: #37383c;
 }
 
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #1f1f21;
-  color: #fff;
-  position: absolute;
-  width: 100%;
-}
-
 #home-footer {
   padding: 1rem;
   margin: 0;
@@ -241,9 +235,6 @@ main #home {
 }
 #home-footer a:hover {
   color: #fff;
-}
-#home-footer .copyright {
-  margin-right: 15px;
 }
 
 @media screen and (min-width: 1824px) {
