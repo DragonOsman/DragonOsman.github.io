@@ -61,7 +61,7 @@ body {
   color: #e6e6e6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-image: linear-gradient(#37383c, #287098, #37383c);
+  background-image: linear-gradient(to top right, #37383c, #287098);
 }
 
 h1,
@@ -280,7 +280,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: calc(100vh + 200px);
+    height: calc(100vh + 150px);
   }
   #home .lg-heading {
     line-height: 1;
@@ -289,7 +289,7 @@ main #home {
   }
 
   #about {
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
 
   .about-info {
@@ -377,7 +377,7 @@ main #home {
 }
 @media screen and (max-width: 500px) {
   #home {
-    height: calc(100vh + 500px);
+    height: calc(100vh + 200px);
   }
 
   main {
@@ -394,7 +394,7 @@ main #home {
     margin-bottom: 1vh;
   }
   main #about {
-    margin-top: 5vh;
+    margin-top: 30vh;
   }
 
   .bio-image {
