@@ -61,6 +61,7 @@ body {
   color: #e6e6e6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  background-image: linear-gradient(#37383c, #287098, #37383c);
 }
 
 h1,
@@ -112,9 +113,7 @@ main .icons a:hover {
 }
 main #home {
   width: 100%;
-  height: calc(100vh + 255px);
-  background-image: linear-gradient(#37383c, #287098);
-  background-size: cover;
+  height: calc(100vh + 80px);
 }
 
 #about, #projects, #contact {
@@ -203,7 +202,7 @@ main #home {
 }
 .contact-info div.info {
   padding: 5px;
-  border-bottom: #287098 3px solid;
+  border-bottom: #1d5270 3px solid;
 }
 
 .btn, .btn-light, .btn-dark {
@@ -281,6 +280,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
+    height: calc(100vh + 200px);
   }
   #home .lg-heading {
     line-height: 1;
@@ -289,7 +289,7 @@ main #home {
   }
 
   #about {
-    margin-top: 35vh;
+    margin-top: 5vh;
   }
 
   .about-info {
@@ -334,12 +334,16 @@ main #home {
   }
 }
 @media screen and (min-width: 501px) and (max-width: 767px) {
+  #home {
+    height: calc(100vh + 200px);
+  }
+
   #about, #contact, #projects {
     margin-bottom: 3vh;
   }
 
   #about {
-    margin-top: 40vh;
+    margin-top: 30vh;
   }
 
   .navbar {
@@ -390,7 +394,7 @@ main #home {
     margin-bottom: 1vh;
   }
   main #about {
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 
   .bio-image {
