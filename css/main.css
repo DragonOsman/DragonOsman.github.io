@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   width: 100%;
   height: 100%;
@@ -36,12 +42,6 @@
 .main-nav > .nav-item .nav-link:hover {
   background-color: #2d2e31;
   transition: all 0.5s ease-out;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 header {
@@ -112,7 +112,7 @@ main .icons a:hover {
 }
 main #home {
   width: 100%;
-  height: calc(100vh + 300px);
+  height: calc(100vh + 255px);
   background-image: linear-gradient(#37383c, #287098);
   background-size: cover;
 }
@@ -122,7 +122,7 @@ main #home {
 }
 
 #about {
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 
 .bio-image {
@@ -281,8 +281,6 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    background-size: cover;
-    height: calc(100vh + 500px);
   }
   #home .lg-heading {
     line-height: 1;
@@ -344,10 +342,6 @@ main #home {
     margin-top: 40vh;
   }
 
-  #home {
-    height: calc(100vh + 3000px);
-  }
-
   .navbar {
     height: 100%;
   }
@@ -384,11 +378,6 @@ main #home {
 
   main {
     padding: 2rem;
-  }
-  main #home {
-    height: calc(100vh + 400px);
-    background-size: cover;
-    background-image: linear-gradient(#37383c, #287098);
   }
   main #home h1 {
     margin-top: 2vh;
