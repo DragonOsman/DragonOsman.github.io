@@ -65,7 +65,7 @@ body {
   color: #e6e6e6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-image: linear-gradient(to top right, #37383c, #287098);
+  background-image: linear-gradient(#303134, #25678c, #303134);
 }
 
 h1,
@@ -102,6 +102,7 @@ a:hover {
 
 main {
   padding: 4rem;
+  margin-top: 3vh;
   min-height: calc(100vh - 60px);
 }
 main .icons {
@@ -129,7 +130,6 @@ main #home {
 }
 
 .bio-image {
-  margin-top: 1vh;
   border-radius: 50%;
   width: 157px;
   height: 157px;
