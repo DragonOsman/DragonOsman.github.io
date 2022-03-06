@@ -112,13 +112,17 @@ main .icons a:hover {
 }
 main #home {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh + 300px);
   background-image: linear-gradient(#37383c, #287098);
   background-size: cover;
 }
 
 #about, #projects, #contact {
   margin-bottom: 12vh;
+}
+
+#about {
+  margin-top: 7vh;
 }
 
 .bio-image {
@@ -268,7 +272,7 @@ main #home {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 1024px) {
   #about, #projects, #contact {
     margin-bottom: 3vh;
   }
@@ -278,11 +282,16 @@ main #home {
     text-align: center;
     width: 100%;
     background-size: cover;
+    height: calc(100vh + 500px);
   }
   #home .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
     min-height: 0;
+  }
+
+  #about {
+    margin-top: 35vh;
   }
 
   .about-info {
@@ -326,9 +335,17 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 501px) and (max-width: 767px) {
+@media screen and (min-width: 501px) and (max-width: 700px) {
   #about, #contact, #projects {
     margin-bottom: 3vh;
+  }
+
+  #about {
+    margin-top: 40vh;
+  }
+
+  #home {
+    height: calc(100vh + 3000px);
   }
 
   .navbar {
@@ -362,18 +379,14 @@ main #home {
 }
 @media screen and (max-width: 500px) {
   #home {
-    height: 100vh;
-  }
-
-  #about {
-    margin-top: 30vh;
+    height: calc(100vh + 500px);
   }
 
   main {
     padding: 2rem;
   }
   main #home {
-    height: 100vh;
+    height: calc(100vh + 400px);
     background-size: cover;
     background-image: linear-gradient(#37383c, #287098);
   }
@@ -385,7 +398,10 @@ main #home {
     font-size: 5rem;
   }
   main #about, main #projects, main #contact {
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
+  }
+  main #about {
+    margin-top: 10vh;
   }
 
   .bio-image {
