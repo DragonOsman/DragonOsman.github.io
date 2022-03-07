@@ -147,7 +147,7 @@ main #home {
   font-size: 16px;
 }
 .about-info .bio a {
-  color: #fff;
+  color: #000;
 }
 .about-info .bio a:hover {
   color: #287098;
@@ -175,7 +175,7 @@ main #home {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .projects img {
   width: 100%;
@@ -200,13 +200,17 @@ main #home {
 }
 
 .contact-info {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact-info div.info {
   padding: 5px;
   border-bottom: #1d5270 3px solid;
+}
+.contact-info div.info:hover {
+  padding: 10px;
 }
 
 .btn, .btn-light, .btn-dark {
@@ -217,7 +221,7 @@ main #home {
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
   background: #287098;
-  color: #fff;
+  color: #000;
 }
 
 .btn-dark {
@@ -247,9 +251,10 @@ main #home {
 
 @media screen and (min-width: 1824px) {
   .contact-info {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .contact-info div.info {
     padding: 5px;
@@ -257,14 +262,15 @@ main #home {
   }
 
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1224px) {
   .contact-info {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .contact-info div.info {
     padding: 5px;
@@ -364,7 +370,6 @@ main #home {
   }
 
   .main-nav {
-    flex-wrap: wrap;
     display: none;
     height: 100%;
   }
@@ -421,9 +426,10 @@ main #home {
   }
 
   .contact-info {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .contact-info div.info {
     padding: 5px;
@@ -473,4 +479,4 @@ main #home {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=styles.css.map */
