@@ -283,11 +283,11 @@ main #home {
 }
 @media screen and (min-width: 501px) and (max-width: 767px) {
   #about {
-    margin-top: calc(50px);
+    margin-top: calc(100px);
   }
 
   #home {
-    height: 100vh;
+    height: calc(100vh + 50px);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
