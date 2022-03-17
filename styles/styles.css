@@ -353,7 +353,7 @@ main #home {
   }
 
   #about {
-    margin-top: calc(100vh + 10vh);
+    margin-top: calc(100vh + 1vh);
   }
 
   .navbar {
