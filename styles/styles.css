@@ -283,7 +283,7 @@ main #home {
 }
 @media screen and (min-width: 501px) and (max-width: 767px) {
   #about {
-    margin-top: 30vh;
+    margin-top: 50vh;
   }
 
   #home {
@@ -292,7 +292,7 @@ main #home {
 
   .navbar {
     height: 100%;
-    display: none;
+    background-color: #1f1f21;
   }
   .navbar-toggle {
     display: inline-block;
@@ -302,6 +302,26 @@ main #home {
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    display: none;
+    height: 100%;
+  }
+  .main-nav > .nav-item {
+    flex-basis: 100%;
+  }
+
+  .active {
+    display: flex;
+    height: 245px;
+    background-size: cover;
+    background-color: #1f1f21;
+  }
+
+  .logo {
+    margin-top: 4px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
