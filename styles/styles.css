@@ -386,7 +386,7 @@ main #home {
 }
 @media screen and (min-width: 300px) and (max-width: 374px) {
   #home {
-    height: calc(100vh + 50px);
+    height: calc(100vh);
   }
 
   main {
@@ -403,7 +403,7 @@ main #home {
     margin-bottom: 1vh;
   }
   main #about {
-    margin-top: calc(100vh + 10vh);
+    margin-top: calc(100vh + 30vh);
   }
 
   .bio-image {
