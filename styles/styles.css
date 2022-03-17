@@ -299,7 +299,7 @@ main #home {
   }
 
   #about {
-    margin-top: 1vh;
+    margin-top: calc(100vh + 40px);
   }
 
   .about-info {
@@ -353,7 +353,7 @@ main #home {
   }
 
   #about {
-    margin-top: 30vh;
+    margin-top: calc(100vh + 20px);
   }
 
   .navbar {
