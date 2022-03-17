@@ -403,7 +403,7 @@ main #home {
     margin-bottom: 1vh;
   }
   main #about {
-    margin-top: calc(100vh + 100px);
+    margin-top: calc(100vh + 50px);
   }
 
   .bio-image {
