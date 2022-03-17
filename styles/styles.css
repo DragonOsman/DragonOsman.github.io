@@ -290,7 +290,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: calc(100vh + 100px);
+    height: calc(100vh + 50px);
   }
   #home .lg-heading {
     line-height: 1;
@@ -345,7 +345,7 @@ main #home {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   #home {
-    height: calc(100vh + 100px);
+    height: calc(100vh + 50px);
   }
 
   #about, #contact, #projects {
@@ -386,7 +386,7 @@ main #home {
 }
 @media screen and (min-width: 300px) and (max-width: 374px) {
   #home {
-    height: calc(100vh + 100px);
+    height: calc(100vh + 50px);
   }
 
   main {
