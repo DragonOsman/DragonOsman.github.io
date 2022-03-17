@@ -281,49 +281,6 @@ main #home {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (min-width: 501px) and (max-width: 767px) {
-  #about {
-    margin-top: 50vh;
-  }
-
-  #home {
-    height: calc(100vh + 100px);
-  }
-
-  .navbar {
-    height: 100%;
-    background-color: #1f1f21;
-  }
-  .navbar-toggle {
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 24px;
-  }
-
-  .main-nav {
-    flex-wrap: wrap;
-    display: none;
-    height: 100%;
-  }
-  .main-nav > .nav-item {
-    flex-basis: 100%;
-  }
-
-  .active {
-    display: flex;
-    height: 245px;
-    background-size: cover;
-    background-color: #1f1f21;
-  }
-
-  .logo {
-    margin-top: 4px;
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #about, #projects, #contact {
     margin-bottom: 3vh;
@@ -333,7 +290,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: calc(100vh);
+    height: 100vh;
   }
   #home .lg-heading {
     line-height: 1;
@@ -342,7 +299,7 @@ main #home {
   }
 
   #about {
-    margin-top: calc(50px);
+    margin-top: calc(100vh, 50px);
   }
 
   .about-info {
@@ -386,7 +343,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 500px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   #home {
     height: calc(100vh + 50px);
   }
