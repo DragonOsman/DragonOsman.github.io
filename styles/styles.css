@@ -290,7 +290,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: calc(100vh + 150px);
+    height: calc(100vh + 100px);
   }
   #home .lg-heading {
     line-height: 1;
@@ -299,7 +299,7 @@ main #home {
   }
 
   #about {
-    margin-top: calc(100vh + 40px);
+    margin-top: calc(100vh + 10vh);
   }
 
   .about-info {
@@ -345,7 +345,7 @@ main #home {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   #home {
-    height: calc(100vh + 200px);
+    height: calc(100vh + 100px);
   }
 
   #about, #contact, #projects {
@@ -353,7 +353,7 @@ main #home {
   }
 
   #about {
-    margin-top: calc(100vh + 150px);
+    margin-top: calc(100vh + 10vh);
   }
 
   .navbar {
@@ -386,7 +386,7 @@ main #home {
 }
 @media screen and (min-width: 300px) and (max-width: 374px) {
   #home {
-    height: calc(100vh + 200px);
+    height: calc(100vh + 100px);
   }
 
   main {
