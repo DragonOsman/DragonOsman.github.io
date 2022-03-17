@@ -265,7 +265,7 @@ main #home {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1200px) {
   .contact-info {
     display: flex;
     align-items: center;
@@ -343,7 +343,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   #home {
     height: calc(100vh);
   }
@@ -384,7 +384,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   #home {
     height: calc(100vh);
   }
