@@ -290,7 +290,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: calc(100vh + 30px);
+    height: calc(100vh + 20px);
   }
   #home .lg-heading {
     line-height: 1;
@@ -299,7 +299,7 @@ main #home {
   }
 
   #about {
-    margin-top: calc(100vh + 10vh);
+    margin-top: calc(100vh + 5vh);
   }
 
   .about-info {
