@@ -290,7 +290,7 @@ main #home {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: calc(100vh + 50px);
+    height: calc(100vh + 30px);
   }
   #home .lg-heading {
     line-height: 1;
