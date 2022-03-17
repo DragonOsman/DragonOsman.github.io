@@ -349,7 +349,7 @@ main #home {
   }
 
   #about, #contact, #projects {
-    margin-bottom: 3vh;
+    margin-bottom: 25vh;
   }
 
   #about {
@@ -384,7 +384,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   #home {
     height: calc(100vh + 200px);
   }
