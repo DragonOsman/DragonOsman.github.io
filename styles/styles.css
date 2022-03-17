@@ -299,7 +299,7 @@ main #home {
   }
 
   #about {
-    margin-top: calc(100vh + 1vh);
+    margin-top: calc(300px);
   }
 
   .about-info {
