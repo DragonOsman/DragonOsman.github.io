@@ -343,7 +343,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 501px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   #home {
     height: calc(100vh + 200px);
   }
@@ -384,7 +384,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 374px) {
   #home {
     height: calc(100vh + 200px);
   }
