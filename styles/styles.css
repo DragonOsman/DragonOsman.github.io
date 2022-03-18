@@ -54,8 +54,9 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 67px;
+  height: 67;
   vertical-align: center;
+  margin-bottom: 80px;
 }
 
 body {
@@ -122,7 +123,7 @@ main #home {
   margin-bottom: 100px;
 }
 
-#about, #projects {
+#contact, #about, #projects {
   margin-bottom: 25vh;
 }
 
@@ -139,6 +140,7 @@ main #home {
   width: 157px;
   height: 157px;
   border: #287098 3px solid;
+  margin-top: 80px;
 }
 
 .about-info {
@@ -177,16 +179,16 @@ main #home {
   height: 0;
 }
 
-.projects {
+.project-container {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 }
-.projects img {
+.project-container img {
   width: 100%;
   border: 3px #fff solid;
 }
-.projects img:hover {
+.project-container img:hover {
   opacity: 0.5;
   border-color: #287098;
   transition: all 0.5s ease-out;
@@ -213,6 +215,7 @@ main #home {
 .contact-info div.info {
   padding: 5px;
   border-bottom: #1d5270 3px solid;
+  height: 10px;
 }
 .contact-info div.info:hover {
   padding: 10px;
@@ -266,7 +269,7 @@ main #home {
     border-bottom: #287098 3px solid;
   }
 
-  .projects {
+  .project-container {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -322,7 +325,7 @@ main #home {
     border-bottom: #287098 3px solid;
   }
 
-  .projects {
+  .project-container {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -392,7 +395,7 @@ main #home {
     flex-direction: column;
   }
 
-  .projects {
+  .project-container {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -610,7 +613,7 @@ main #home {
     border-bottom: #287098 3px solid;
   }
 
-  .projects {
+  .project-container {
     grid-template-columns: 1fr;
   }
 
