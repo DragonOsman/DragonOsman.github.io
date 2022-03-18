@@ -12,7 +12,8 @@
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "parser": "babel"
+        "parser": "babel",
+        "ecmaVersion": 2022
     },
     "rules": {
         "indent": [
