@@ -123,15 +123,15 @@ main #home {
 }
 
 #about, #projects {
-  margin-bottom: 40vh;
+  margin-bottom: 25vh;
 }
 
 #contact {
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
 
 #about {
-  margin-top: 270px;
+  margin-top: 200px;
 }
 
 .bio-image {
