@@ -460,11 +460,11 @@ main #home {
     background-size: cover;
     background-color: #1f1f21;
     flex-direction: column;
-  }
-  .active > .nav-item {
-    display: inline-block;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    /*& > .nav-item {
+      display: inline-block;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }*/
   }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
