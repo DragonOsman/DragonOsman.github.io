@@ -564,7 +564,10 @@ main #home {
 @media screen and (height: 568px) {
   #home {
     height: 100vh;
-    margin-bottom: 980px;
+  }
+
+  #about {
+    margin-top: 500px;
   }
 }
 
