@@ -561,14 +561,14 @@ main #home {
     margin-top: 4px;
   }
 }
-@media screen and (height: 568px) {
+@media screen and (width: 320px) and (height: 568px) {
   #home {
     height: 100vh;
     margin-bottom: 500px;
   }
 
-  #about {
-    margin-top: 2000px;
+  #home {
+    margin-top: 200px;
   }
 }
 
