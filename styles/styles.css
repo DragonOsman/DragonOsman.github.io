@@ -427,7 +427,7 @@ main #home {
     background-color: #1f1f21;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 400px) and (max-width: 767px) {
   #home {
     height: 100vh;
   }
@@ -469,10 +469,10 @@ main #home {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 280px) and (max-width: 575px) {
+@media screen and (min-width: 280px) and (max-width: 399px) {
   #home {
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 50vh;
   }
 
   main {
@@ -559,16 +559,6 @@ main #home {
 
   .logo {
     margin-top: 4px;
-  }
-}
-@media screen and (width: 320px) and (height: 568px) {
-  #home {
-    height: 100vh;
-    margin-bottom: 500px;
-  }
-
-  #home {
-    margin-top: 50vh;
   }
 }
 
