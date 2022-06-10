@@ -485,6 +485,9 @@ main #home {
     margin-top: 1rem;
     font-size: 5rem;
   }
+  main #about {
+    margin-top: 500px;
+  }
   main #about, main #projects, main #contact {
     margin-bottom: 5vh;
   }
