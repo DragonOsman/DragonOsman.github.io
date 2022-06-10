@@ -596,6 +596,10 @@ main #home {
   .logo {
     margin-top: 4px;
   }
+
+  footer {
+    margin-top: 100px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
