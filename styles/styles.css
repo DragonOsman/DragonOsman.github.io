@@ -514,10 +514,13 @@ main #home {
     font-size: 5rem;
   }
   main #about {
-    margin-top: 800px;
+    margin-top: 1000px;
   }
   main #about, main #projects, main #contact {
     margin-bottom: 5vh;
+  }
+  main #about {
+    margin-bottom: 15vh;
   }
 
   .bio-image {
@@ -546,8 +549,8 @@ main #home {
     align-items: center;
   }
   .contact-info div.info {
-    padding: 20px;
-    height: 50px;
+    padding: 30px;
+    height: 80px;
     border-bottom: #287098 3px solid;
     margin-bottom: 25px;
   }
