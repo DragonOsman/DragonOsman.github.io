@@ -402,6 +402,8 @@ main #home {
   .main-nav {
     flex-wrap: wrap;
     display: none;
+    justify-content: center;
+    align-items: center;
   }
   .main-nav > .nav-item {
     flex-basis: 50%;
@@ -425,6 +427,19 @@ main #home {
     height: 135px;
     background-size: cover;
     background-color: #1f1f21;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-info div.info {
+    padding: 20px;
+    height: 50px;
+    border-bottom: #287098 3px solid;
+    margin-bottom: 15px;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 767px) {
@@ -468,6 +483,19 @@ main #home {
     background-color: #1f1f21;
     flex-direction: column;
   }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-info div.info {
+    padding: 20px;
+    height: 50px;
+    border-bottom: #287098 3px solid;
+    margin-bottom: 25px;
+  }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
   #home {
@@ -486,7 +514,7 @@ main #home {
     font-size: 5rem;
   }
   main #about {
-    margin-top: 500px;
+    margin-top: 800px;
   }
   main #about, main #projects, main #contact {
     margin-bottom: 5vh;
@@ -518,8 +546,10 @@ main #home {
     align-items: center;
   }
   .contact-info div.info {
-    padding: 5px;
+    padding: 20px;
+    height: 50px;
     border-bottom: #287098 3px solid;
+    margin-bottom: 25px;
   }
 
   .project-container {
