@@ -139,7 +139,7 @@ main #home {
   border-radius: 50%;
   width: 157px;
   height: 157px;
-  border: #287098 3px solid;
+  border: 3px solid #287098;
   margin-top: 80px;
 }
 
@@ -207,15 +207,17 @@ main #home {
 }
 
 .contact-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
 }
 .contact-info div.info {
   padding: 10px;
   margin: 10px;
   height: 20px;
+}
+.contact-info div.info:hover {
+  border-bottom: 3px solid #303134;
 }
 
 .btn, .btn-light, .btn-dark {
@@ -257,10 +259,9 @@ main #home {
 
 @media screen and (min-width: 1824px) {
   .contact-info {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
   }
   .contact-info div.info {
     padding: 10px;
@@ -325,10 +326,9 @@ main #home {
 }
 @media screen and (min-width: 1200px) {
   .contact-info {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
   }
   .contact-info div.info {
     padding: 10px;
@@ -452,10 +452,9 @@ main #home {
   }
 
   .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
   }
   .contact-info div.info {
     padding: 20px;
@@ -473,7 +472,7 @@ main #home {
   }
 
   #about {
-    margin-top: 600px;
+    margin-top: 400px;
   }
 
   .navbar {
@@ -506,15 +505,13 @@ main #home {
   }
 
   .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
   }
   .contact-info div.info {
-    padding: 20px;
-    height: 50px;
-    margin-bottom: 25px;
+    padding: 10px;
+    height: 20px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -563,15 +560,14 @@ main #home {
   }
 
   .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
   }
   .contact-info div.info {
-    padding: 30px;
-    height: 80px;
-    margin-bottom: 25px;
+    padding: 10px;
+    height: 20px;
+    margin-bottom: 10px;
   }
 
   .project-container {
@@ -622,10 +618,9 @@ main #home {
 }
 @media screen and (height: 568px) {
   div.info {
-    padding: 30px;
-    height: 80px;
-    margin-bottom: 25px;
-    border: none;
+    padding: 10px;
+    height: 20px;
+    margin-bottom: 10px;
   }
 }
 
