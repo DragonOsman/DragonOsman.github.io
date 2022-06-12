@@ -214,8 +214,9 @@ main #home {
 }
 .contact-info div.info {
   padding: 5px;
+  margin: 5px;
   border-bottom: #1d5270 3px solid;
-  height: 10px;
+  height: 20px;
 }
 
 .btn, .btn-light, .btn-dark {
