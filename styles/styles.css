@@ -215,7 +215,6 @@ main #home {
 .contact-info div.info {
   padding: 10px;
   margin: 10px;
-  /*border-bottom: darken($secondary-color, 10) 3px solid;*/
   height: 20px;
 }
 
@@ -266,7 +265,6 @@ main #home {
   .contact-info div.info {
     padding: 10px;
     margin: 5px;
-    /*border-bottom: darken($secondary-color, 10) 3px solid;*/
     height: 20px;
   }
 
@@ -335,7 +333,6 @@ main #home {
   .contact-info div.info {
     padding: 10px;
     margin: 5px;
-    /*border-bottom: darken($secondary-color, 10) 3px solid;*/
     height: 20px;
   }
 
@@ -463,7 +460,6 @@ main #home {
   .contact-info div.info {
     padding: 20px;
     height: 50px;
-    border-bottom: #287098 3px solid;
     margin-bottom: 15px;
   }
 }
