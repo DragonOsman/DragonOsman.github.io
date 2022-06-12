@@ -261,15 +261,15 @@ main #home {
   .contact-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
+    gap: 10px;
   }
   .contact-info div.info {
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    margin: 20px;
     height: 20px;
   }
   .contact-info div.info:hover {
-    border-bottom: 3px solid #303134;
+    border-bottom: 3px solid #25678c;
   }
 
   .project-container {
@@ -331,15 +331,15 @@ main #home {
   .contact-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
+    gap: 10px;
   }
   .contact-info div.info {
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    margin: 20px;
     height: 20px;
   }
   .contact-info div.info:hover {
-    border-bottom: 3px solid #303134;
+    border-bottom: 3px solid #25678c;
   }
 
   .project-container {
@@ -464,11 +464,11 @@ main #home {
   }
   .contact-info div.info {
     padding: 20px;
-    height: 50px;
-    margin-bottom: 15px;
+    height: 20px;
+    margin-bottom: 20px;
   }
   .contact-info div.info:hover {
-    border-bottom: 3px solid #303134;
+    border-bottom: 3px solid #25678c;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 767px) {
@@ -481,7 +481,7 @@ main #home {
   }
 
   #about {
-    margin-top: 400px;
+    margin-top: 700px;
   }
 
   .navbar {
@@ -519,8 +519,12 @@ main #home {
     gap: 3px;
   }
   .contact-info div.info {
-    padding: 10px;
+    padding: 20px;
     height: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-info div.info:hover {
+    border-bottom: 3px solid #25678c;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -571,12 +575,12 @@ main #home {
   .contact-info {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3px;
+    gap: 10px;
   }
   .contact-info div.info {
-    padding: 10px;
+    padding: 20px;
     height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .contact-info div.info:hover {
     border-bottom: 3px solid #303134;
@@ -632,10 +636,10 @@ main #home {
   div.info {
     padding: 10px;
     height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   div.info:hover {
-    border-bottom: 3px solid #303134;
+    border-bottom: 3px solid #25678c;
   }
 }
 
