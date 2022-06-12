@@ -217,9 +217,6 @@ main #home {
   border-bottom: #1d5270 3px solid;
   height: 10px;
 }
-.contact-info div.info:hover {
-  padding: 10px;
-}
 
 .btn, .btn-light, .btn-dark {
   display: block;
