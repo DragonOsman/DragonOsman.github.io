@@ -140,7 +140,7 @@ main #home {
   width: 157px;
   height: 157px;
   border: 3px solid #287098;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .about-info {
@@ -554,7 +554,7 @@ main #home {
   }
 
   .bio-image {
-    margin-top: 5vh;
+    margin-top: 55px;
   }
 
   .about-info {
