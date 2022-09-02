@@ -326,6 +326,10 @@ main #home {
     background-color: #2d2e31;
     transition: all 0.5s ease-out;
   }
+
+  footer {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .contact-info {
@@ -340,6 +344,9 @@ main #home {
   }
   .contact-info div.info:hover {
     border-bottom: 3px solid #25678c;
+  }
+  .contact-info footer {
+    width: 100%;
   }
 
   .project-container {
@@ -395,6 +402,10 @@ main #home {
   .main-nav > .nav-item .nav-link:hover {
     background-color: #2d2e31;
     transition: all 0.5s ease-out;
+  }
+
+  footer {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -470,6 +481,10 @@ main #home {
   .contact-info div.info:hover {
     border-bottom: 3px solid #25678c;
   }
+
+  footer {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 767px) {
   #home {
@@ -525,6 +540,10 @@ main #home {
   }
   .contact-info div.info:hover {
     border-bottom: 3px solid #25678c;
+  }
+
+  footer {
+    width: 100%;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -633,6 +652,7 @@ main #home {
 
   footer {
     margin-top: 100px;
+    width: 100%;
   }
 }
 @media screen and (height: 568px) {
