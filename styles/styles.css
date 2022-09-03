@@ -244,7 +244,7 @@ main #home {
 #home-footer {
   padding: 1rem;
   margin: 0;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   background-color: #1f1f21;
   color: #fff;
@@ -328,7 +328,7 @@ main #home {
   }
 
   footer {
-    width: 100%;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -346,7 +346,7 @@ main #home {
     border-bottom: 3px solid #25678c;
   }
   .contact-info footer {
-    width: 100%;
+    width: 100vw;
   }
 
   .project-container {
@@ -405,7 +405,7 @@ main #home {
   }
 
   footer {
-    width: 100%;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -483,7 +483,7 @@ main #home {
   }
 
   footer {
-    width: 100%;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 767px) {
@@ -543,7 +543,7 @@ main #home {
   }
 
   footer {
-    width: 100%;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -652,7 +652,7 @@ main #home {
 
   footer {
     margin-top: 100px;
-    width: 100%;
+    width: 100vw;
   }
 }
 @media screen and (height: 568px) {
