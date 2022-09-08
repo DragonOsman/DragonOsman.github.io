@@ -244,7 +244,7 @@ main #home {
 #home-footer {
   padding: 1rem;
   margin: 0;
-  width: 100vw;
+  width: 98.7vw;
   height: 60px;
   background-color: #1f1f21;
   color: #fff;
@@ -543,7 +543,7 @@ main #home {
   }
 
   footer {
-    width: 100vw;
+    width: calc(100vw + 400px);
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -652,7 +652,7 @@ main #home {
 
   footer {
     margin-top: 100px;
-    width: 100vw;
+    width: calc(100vw + 100px);
   }
 }
 @media screen and (height: 568px) {
