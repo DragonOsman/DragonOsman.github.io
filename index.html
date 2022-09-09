@@ -44,7 +44,6 @@
       href="fontawesome-free-6.0.0-web/css/all.css"
       />
     <script src="scripts/scripts.js" async></script>
-    <script src="scripts/apprunning.js" async></script>
   </head>
   <body>
     <header>
@@ -94,15 +93,6 @@
             HTML, CSS, SCSS, Git) and I can create web applications that help companies and individuals
             with their work
           </h2>
-          <div class="icons">
-            <a
-              href="www.linkedin.com/in/sami-zakir-12b6a7119/"
-              target="_blank"
-              ><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/DragonOsman/" target="_blank"
-              ><i class="fab fa-github fa-2x"></i
-              ></a>
-          </div>
         </div>
       </div>
       <div id="about">
@@ -463,38 +453,61 @@
       <div id="contact">
         <div class="contact-container">
           <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
-          <h2 class="sm-heading">This is how you can reach me...</h2>
-          <div class="contact-info">
-            <div class="info">
-              <span class="text-secondary">Email:</span>
-              <a href="mailto:osmanzakir90@hotmail.com" target="_blank">
-              osmanzakir90@hotmail.com</a>
-            </div>
-            <div class="info">
-              <span class="text-secondary">LinkedIn Profile:</span>
-              <a href="www.linkedin.com/in/sami-zakir-12b6a7119/" target="_blank">
-                www.linkedin.com/in/sami-zakir-12b6a7119
-              </a>
-            </div>
-            <div class="info">
-              <span class="text-secondary">GitHub Profile:</span>
-              <a href="https://github.com/DragonOsman" target="_blank" id="profile-link">
-              https://github.com/DragonOsman</a>
-            </div>
-            <div class="info">
-              <span class="text-secondary">Fiverr Profile:</span>
-              <a href="https://www.fiverr.com/osmanzakir?public_mode=true" target="_blank" id="profile-link">
-                https://www.fiverr.com/osmanzakir?public_mode=true</a>
-            </div>
-          </div>
+          <h2 class="sm-heading">Send me a comment...</h2>
+          <form class="contact-form">
+            <label for="full-name">Full Name:</label>
+            <input type="text" name="full-name" id="name" class="name" />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="email" />
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment-box" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Comment" />
+          </form>
         </div>
       </div>
     </main>
     <footer id="home-footer">
-      Logo made with
-      <a href="https://www.designevo.com/en/" title="Free Online Logo Maker">
-        DesignEvo
-      </a>
+      <div class="footer-content" id="footer-content1">
+        <a class="logo" href="#home">
+          <img
+            src="img/logo.png"
+            width="50px"
+            height="50px"
+            alt="dragon logo"
+            class="dragon-logo"
+          />
+        </a>
+        Logo made with
+        <a href="https://www.designevo.com/en/" title="Free Online Logo Maker">
+          DesignEvo
+        </a>
+      </div>
+      <div class="footer-content" id="footer-content2">
+        <a href="mailto:osmanzakir90@hotmail.com">Email Me at Hotmail</a>
+        <a href="mailto:osmanzakir9@gmail.com">Email Me at Gmail</a>
+      </div>
+      <div class="footer-content" id="footer-content3">
+        <div class="icons">
+          <a
+            href="https:/www.linkedin.com/in/sami-zakir-12b6a7119/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://github.com/DragonOsman/"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/osman.zakir.31/"
+            target_blank
+          >
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
