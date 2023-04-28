@@ -209,15 +209,6 @@ main #home {
   font-weight: bold;
 }
 
-.contact-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  align-items: center;
-  justify-content: center;
-}
-
 .btn, .btn-light, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
