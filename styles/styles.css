@@ -66,7 +66,7 @@ body {
   color: #e6e6e6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-image: linear-gradient(to top left, rgba(48, 49, 52, 0.575), rgba(37, 104, 140, 0.493), rgba(48, 49, 52, 0.575)), url("img/868550.jpg");
+  background-image: linear-gradient(to top left, rgba(48, 49, 52, 0.575), rgba(37, 104, 140, 0.493), rgba(48, 49, 52, 0.575)), url("../img/868550.jpg");
   background-position: center;
   background-attachment: fixed;
 }
