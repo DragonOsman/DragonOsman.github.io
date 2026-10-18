@@ -6,4 +6,4 @@ Allow: /about.html
 Allow: /contact.html
 Allow: /work.html
 Allow: /googlef0a3336a7ec95361.html
-Allow: https://www.osmanzakir.dynu.net/sitemap.xml
+Sitemap: https://www.osmanzakir.dynu.net/sitemap.xml
